@@ -31,22 +31,14 @@
     任务执行完之后会调用框架中封装好的接口上报任务执行状态给任务服务端，又服务端做任务的状态信息更新处理。
   ```
  
-  
- #### 依赖中间件
- 
- * activeMQ
- 
- #### 依赖框架
-  
- * hik.notify.service.spring-1.2.1.jar
-  
+
  ### <a name="2">使用指南</a>
  
  #### 依赖引用(参考hummer-service)
  
   ```
        <dependency>
-           <groupId>org.hummer</groupId>
+           <groupId>org.enast.hummer</groupId>
            <artifactId>hummer-config</artifactId>
            <version>1.0.0-SNAPSHOT</version>
        </dependency>
